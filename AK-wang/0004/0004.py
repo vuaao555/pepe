@@ -22,3 +22,10 @@ def wc(filename):
 if __name__ == "__main__":
     filename = 'test.txt'
     wc(filename)
+def _build_sam(
+    encoder_embed_dim,
+    encoder_depth,
+    encoder_num_heads,
+    encoder_global_attn_indexes,
+    checkpoint=None,
+)
